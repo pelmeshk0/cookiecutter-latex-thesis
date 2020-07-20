@@ -1,0 +1,715 @@
+
+%===========================================================================
+%                               DWI
+%===========================================================================
+
+% paper on connection between water diffusion and underlying matter structure
+@article{diffusion1990Moseley,
+  title={Diffusion-weighted MR imaging of anisotropic water diffusion in cat central nervous system.},
+  author={Moseley ME, Cohen Y, Kucharczyk J, et al.},
+  journal={Radiology.},
+  year={1990},
+  volume={176(2)},
+  pages={439‐445},
+  doi = {10.1148/radiology.176.2.2367658}
+}
+
+% paper on how water moves in WM
+@article{WMdiffusion,
+  title={MR color mapping of myelin fiber orientation},
+  author={Douek P, Turner R, Pekar J, Patronas N, Le Bihan D},
+  journal={J Comput Assist Tomogr},
+  year={1991},
+  volume={15(6)},
+  pages={923-929},
+  doi={10.1097/00004728-199111000-00003}
+}
+
+% rather basic paper on DTI and DWI 
+% https://onlinelibrary.wiley.com/doi/full/10.1002/%28SICI%291097-0185%2819990615%29257%3A3%3C102%3A%3AAID-AR7%3E3.0.CO%3B2-6
+@article{Mori1999DiffusionMR,
+  title={Diffusion magnetic resonance imaging: its principle and applications.},
+  author={Susumu Mori and Peter B. Barker},
+  journal={The Anatomical record},
+  year={1999},
+  volume={257 3},
+  pages={102-109}
+}
+
+% an overview paper on dMRI and DTI
+% contains diseases as well as an interesting image
+% https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2910550/
+@article{ChanraudDTI,
+  title={MR diffusion tensor imaging: a window into white matter integrity of the working brain.},
+  author={Chanraud, Sandra et al.},
+  journal={Neuropsychology review},
+  year={2010},
+  volume={vol. 20,2},
+  pages={209-25},
+  doi = {10.1007/s11065-010-9129-7}
+}
+
+% how metrics derived from DWI (FA, MD) correlate with diseases and what changes in these metrics may mean
+% https://www.annualreviews.org/doi/full/10.1146/annurev-clinpsy-032210-104507?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub++0pubmed
+@article{dwiDiseases,
+    author = {Thomason, Moriah E. and Thompson, Paul M.},
+    title = {Diffusion Imaging, White Matter, and Psychopathology},
+    journal = {Annual Review of Clinical Psychology},
+    volume = {7},
+    number = {1},
+    pages = {63-85},
+    year = {2011},
+    doi = {10.1146/annurev-clinpsy-032210-104507}
+}
+
+%===========================================================================
+%                               DTI
+%===========================================================================
+
+% the paper in which DTI was first introduced
+@article{Basser1994DTI,
+    author = {Basser PJ, Mattiello J, LeBihan D.},
+    year = {1994},
+    pages = {259‐267},
+    title = {MR diffusion tensor spectroscopy and imaging},
+    volume = {66(1)},
+    journal = {Biophys J.},
+    doi = {10.1016/S0006-3495(94)80775-1}
+}
+
+% how to compute the tensor from DWI
+@article{BasserHow,
+    author = {Basser PJ, Carlo Pierpaoli},
+    year = {1998},
+    pages = {928-934},
+    title = {A simplified method to measure the diffusion tensor from seven MR images},
+    volume = {39(6)},
+    journal = {Magnetic resonance in medicine},
+    doi = {10.1002/mrm.1910390610}
+}
+
+% !!!!!!! good starting point for extending theoretical part
+% a good overview paper containing info on DTI, FA/MD/RD/AD, tractography and diseases
+@article{dtiGeneralGood,
+    author = {Alexander, Andrew L et al},
+    year = {2007},
+    pages = {316-29},
+    title = {Diffusion tensor imaging of the brain},
+    volume = {4,3},
+    journal = {Neurotherapeutics},
+    doi = {10.1016/j.nurt.2007.05.011}
+}
+
+%===========================================================================
+%                           tractography
+%===========================================================================
+
+% good overview paper on tractography
+%https://onlinelibrary.wiley.com/doi/full/10.1002/nbm.3785
+@article{Jeurissen2019tract,
+  title={Diffusion MRI fiber tractography of the brain.},
+  author={Ben Jeurissen and Maxime Descoteaux and Susumu Mori and Alexander Leemans},
+  journal={NMR in biomedicine},
+  year={2019},
+  volume={32 4},
+  pages={
+          e3785
+        }
+}
+
+%===========================================================================
+%                                  VBA
+%===========================================================================
+
+@article{vbaAshburner,
+    title={Voxel-Based Morphometry—The Methods},
+    author={John Ashburner, Karl J. Friston},
+    year={2000},
+    journal={NeuroImage},
+    volume={11},
+    pages={805-821},
+    doi={10.1006/nimg.2000.058}
+}
+
+@inproceedings{vbaMechelli,
+author = {Mechelli, Andrea and Price, Cathy and Friston, Karl and Ashburner, John},
+year = {2005},
+month = {01},
+pages = {},
+title = {Voxel-Based Morphometry of the Human Brain: Methods and Applications},
+volume = {1},
+journal = {Curr Med Imaging Rev}
+}
+
+@inbook{vbaKurth,
+author = {Kurth, F. and Luders, E. and Gaser, Christian},
+year = {2015},
+month = {12},
+pages = {345-349},
+title = {Voxel-Based Morphometry},
+volume = {1},
+isbn = {9780123973160},
+journal = {Brain Mapping},
+doi = {10.1016/B978-0-12-397025-1.00304-3}
+}
+
+% important paper on problems with VBA
+% http://www.sciencedirect.com/science/article/pii/S1053811911011621
+@article{vbaShortcomings1,
+    title={The influence of complex white matter architecture on the mean diffusivity in diffusion tensor MRI of the human brain},
+    author={Sjoerd B. Vos, Derek K. Jones, Ben Jeurissen, Max A. Viergever, Alexander Leemans},
+    year={2012},
+    journal={NeuroImage},
+    volume={59(3)},
+    pages={2208-2216},
+    doi={doi.org/10.1016/j.neuroimage.2011.09.086}
+}
+
+@article{vbaShortcomings2,
+    title={Voxel based versus region of interest analysis in diffusion tensor imaging of neurodevelopment},
+    author={Lindsay Snook, Chris Plewes, Christian Beaulieu},
+    year={2007},
+    journal={NeuroImage},
+    volume={34(1)},
+    pages={243-252},
+    doi={doi.org/10.1016/j.neuroimage.2006.07.021}
+}
+
+%===========================================================================
+%                        TECHNIQUES AND ALGOS
+%===========================================================================
+
+%!!! some good images on how extracted data "looks" like
+% about fiber orientation and spherical deconvolution
+% https://reader.elsevier.com/reader/sd/pii/S1053811904004100?token=5D6D5FB8CB756AB9BEEB99942B5B61F8FBD6D2270FA8A944383A5E3F1634438E3D0B012BEDBC903F3E8D4417B820FDAB
+@article{Tournier2004FODdeconv,
+    title={Direct estimation of the fiber orientation density function from diffusion-weighted MRI data using spherical deconvolution},
+    author={J.-Donald Tournier, Fernando Calamante, David G. Gadian, and Alan Connelly},
+    year={2004},
+    journal={NeuroImage},
+    volume={23},
+    pages={1176 – 1185}
+}
+
+%!!! also, some good images and chapter 4 has info on further work!!!!!!!!!!!!!!!
+% overview paper about the whole FOD computation process
+% includes FOD estimation, response function, csd overview
+% https://onlinelibrary.wiley.com/doi/pdf/10.1002/nbm.3945
+https://onlinelibrary.wiley.com/doi/pdf/10.1002/nbm.3945
+@article{TournierCSDhow,
+    title={Modelling white matter with spherical deconvolution: How and why?},
+    author={Dell'Acqua F, Tournier JD.},
+    year={2019},
+    journal={NMR Biomed},
+    volume={32(4)},
+    pages={1176 – 1185},
+    doi={10.1002/nbm.3945}
+}
+
+% csd
+@article{csd1TOURNIER,
+title = "Direct estimation of the fiber orientation density function from diffusion-weighted MRI data using spherical deconvolution",
+journal = "NeuroImage",
+volume = "23",
+number = "3",
+pages = "1176 - 1185",
+year = "2004",
+issn = "1053-8119",
+doi = "https://doi.org/10.1016/j.neuroimage.2004.07.037",
+url = "http://www.sciencedirect.com/science/article/pii/S1053811904004100",
+author = "J.-Donald Tournier and Fernando Calamante and David G. Gadian and Alan Connelly",
+}
+
+@article{csdDellAcqua2019,
+  title={Modelling white matter with spherical deconvolution: How and why?},
+  author={Flavio Dell'Acqua and J-Donald Tournier},
+  journal={Nmr in Biomedicine},
+  year={2019},
+  volume={32}
+}
+
+%===========================================================================
+%                          VBA, FA, MD, RD, AD
+%===========================================================================
+
+% important (and probably one of few) paper on RD and how it affect myelination
+@article{RDmyelination,
+title = "Dysmyelination Revealed through MRI as Increased Radial (but Unchanged Axial) Diffusion of Water",
+journal = "NeuroImage",
+volume = "17",
+number = "3",
+pages = "1429 - 1436",
+year = "2002",
+issn = "1053-8119",
+doi = "https://doi.org/10.1006/nimg.2002.1267",
+url = "http://www.sciencedirect.com/science/article/pii/S105381190291267X",
+author = "Sheng-Kwei Song and Shu-Wei Sun and Michael J. Ramsbottom and Chen Chang and John Russell and Anne H. Cross",
+}
+
+% from here I took the part about FA/RD correlation
+% https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4245082/
+@article{fa-fd-correlation,
+title = "Diffusion tensor imaging: a review for pediatric researchers and clinicians",
+journal = "JDBP",
+volume = "31",
+number = "4",
+pages = "346-56",
+year = "2010",
+doi = "10.1097/DBP.0b013e3181dcaa8b",
+url = "http://www.sciencedirect.com/science/article/pii/S105381190291267X",
+author = "Feldman, Heidi M et al",
+}
+
+%------- papers on diffusion-based metrics
+
+% paper on FA and MD
+% https://onlinelibrary.wiley.com/doi/epdf/10.1002/nbm.1940080707
+@article{Basser1995InferringMF,
+  title={Inferring microstructural features and the physiological state of tissues from diffusion-weighted images},
+  author={Peter J. Basser},
+  journal={NMR in biomedicine},
+  year={1995},
+  volume={8 7-8},
+  pages={333-44}
+}
+
+% another paper talking about FA measure
+% https://reader.elsevier.com/reader/sd/pii/S1064186696900862?token=3C209B1B0908DF00F9CF2AD23A610CBDAEA6A469AC6BE1FA24BF6EF6EC5AE27F29714AEA919FBF8B2661CB2E5717BEC4
+@article{Basser1996FA,
+  title={Microstructural and physiological features of tissues elucidated by quantitative-diffusion-tensor MRI},
+  author={Peter J. Basser and Carlo Pierpaoli},
+  journal={Journal of magnetic resonance. Series B},
+  year={1996},
+  volume={111 3},
+  pages={209-219}
+}
+
+% critique of RD and AD
+@article{rd-ad-crit,
+  title={Microstructural and physiological features of tissues elucidated by quantitative-diffusion-tensor MRI},
+  author={Peter J. Basser and Carlo Pierpaoli},
+  journal={Journal of magnetic resonance. Series B},
+  year={1996},
+  volume={111 3},
+  pages={209-219}
+}
+
+%===========================================================================
+%                        Apparent fiber density
+%===========================================================================
+
+
+
+% paper about AFD, which is basis upon which FDC is built (the fiber density part is basically AFD)
+@article{afd2012Raffelt,
+    author = {Raffelt, David and Tournier, Jacques-Donald and Rose, S and Ridgway, Gerard and Henderson, Robert and Crozier, Stuart and Salvado, Olivier and Connelly, Alan},
+    year = {2012},
+    month = {02},
+    pages = {3976-94},
+    title = {Apparent Fibre Density: A novel measure for the analysis of diffusion-weighted magnetic resonance images},
+    volume = {59},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2011.10.045}
+}
+
+%===========================================================================
+%                           why we use FBA
+%===========================================================================
+
+% paper describing the problem of crossing fibres inside voxels
+% in a nutshell between 60 and 90% of voxels
+% https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.22099
+@article{crossingFibers2013,
+    author = {Jeurissen B, Leemans A, Tournier JD, Jones DK, Sijbers J},
+    year = {2013},
+    pages = {2747‐2766},
+    title = {Investigating the prevalence of complex fiber configurations in white matter tissue with diffusion magnetic resonance imaging.},
+    volume = {34(11)},
+    journal = {Hum Brain Mapp},
+    doi = {10.1002/hbm.22099}
+}
+
+% paper talking about FBA, good source of reference on "why FBA is important"
+% can be mentioned in "future work" section (describes some enhanced tractography approach)
+@article{aboutFixels2015Raffelt,
+    author = {Raffelt, David and Smith, Robert and Ridgway, Gerard and Tournier, Jacques-Donald and Vaughan, David and Rose, Stephen and Henderson, Robert and Connelly, Alan},
+    year = {2015},
+    month = {05},
+    pages = {},
+    title = {Connectivity-Based Fixel Enhancement: Whole-Brain Statistical Analysis of Diffusion MRI     Measures in the Presence of Crossing Fibres},
+    volume = {11},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2015.05.039}
+}
+%===========================================================================
+%                   FBA, FDC and other fixel-based metrics
+%===========================================================================
+
+% main paper of the whole work
+@article{fdcAndFBA2017Raffelt,
+    author = {Raffelt DA, Tournier JD, Smith RE},
+    year = {2017},
+    pages = {58‐73},
+    title = {Investigating white matter fibre density and morphology using fixel-based analysis.},
+    volume = {144(Pt A)},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2016.09.029}
+}
+
+%===========================================================================
+%                          RESULTS / DISCUSSION
+%===========================================================================
+
+
+%===========================================================================
+%                          CoBundleMap, ISOMAP
+%===========================================================================
+
+% main paper on BundleMAP
+@article{Khatami2017BundleMap,
+    author = {Khatami, Mohammad and Schmidt-Wilcke, Tobias and Maly Sundgren, Pia and Abbasloo, Amin and Schölkopf, Bernhard and Schultz, Thomas},
+    year = {2016},
+    month = {09},
+    pages = {593-600},
+    title = {BundleMAP: Anatomically localized classification, regression, and hypothesis testing in diffusion MRI},
+    volume = {63},
+    journal = {Pattern Recognition},
+    doi = {10.1016/j.patcog.2016.09.020}
+}
+
+% extending BundleMAP for inter-hemisphere analysis
+@inproceedings{Khatami2019CoBundleMap,
+    author = {Khatami, Mohammad and Wehler, Regina and Schultz, Thomas},
+    year = {2019},
+    month = {04},
+    pages = {1475-1478},
+    title = {Cobundlemap: Consistent 2D Parameterization of Fiber Bundles Across Subjects and Hemispheres},
+}
+
+% paper describing how MNI atlas was created
+@article{
+    mniAtlasReference,  
+    author={A. C. {Evans} and D. L. {Collins} and S. R. {Mills} and E. D. {Brown} and R. L. {Kelly} and T. M. {Peters}},  
+    booktitle={1993 IEEE Conference Record Nuclear Science Symposium and Medical Imaging Conference},   title={3D statistical neuroanatomical models from 305 MRI volumes},   
+    year={1993},  
+    volume={},  
+    number={},  
+    pages={1813-1817 vol.3}
+}
+
+% problems of voxelwise analysis
+@article{
+    voxelwiseImperfections,  
+    author={Smith SM, Jenkinson M, Johansen-Berg H, et al},  
+    title={Tract-based spatial statistics: voxelwise analysis of multi-subject diffusion data},   journal={Neuroimage},   
+    year={2006},  
+    volume={},  
+    number={31(4)},  
+    pages={1487-1505}
+    doi={10.1016/j.neuroimage.2006.02.024}
+}
+
+@article {isomapTenenbaum,
+	author = {Tenenbaum, Joshua B. and Silva, Vin de and Langford, John C.},
+	title = {A Global Geometric Framework for Nonlinear Dimensionality Reduction},
+	volume = {290},
+	number = {5500},
+	pages = {2319--2323},
+	year = {2000},
+	doi = {10.1126/science.290.5500.2319},
+	publisher = {American Association for the Advancement of Science},
+	issn = {0036-8075},
+	URL = {https://science.sciencemag.org/content/290/5500/2319},
+	eprint = {https://science.sciencemag.org/content/290/5500/2319.full.pdf},
+	journal = {Science}
+}
+
+
+%------ previous works in the same area
+
+@article{Wang2015,
+    author = {Wang, Defeng and Luo, Yishan and Mok, Vincent and Chu, Winnie and Shi, Lin},
+    year = {2015},
+    month = {10},
+    pages = {},
+    title = {Tractography Atlas-based Spatial Statistics: Statistical Analysis of Diffusion Tensor Image along Fiber Pathways},
+    volume = {125},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2015.10.032}
+}
+
+@article{Yushkevich2008,
+    author = {P.A. Yushkevich, H. Zhang, T.J. Simon, J.C. Gee},
+    year = {2008},
+    pages = {448-461},
+    title = {Structure-specific statistical mapping of white matter tracts},
+    volume = {41},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2008.01.013}
+}
+
+@article{Zhu2010FRATSFR,
+    title={FRATS: Functional Regression Analysis of DTI Tract Statistics},
+    author={Hongtu Zhu and Martin Styner and Niansheng Tang and Zhexing Liu and Weili Lin and John H. Gilmore},
+    journal={IEEE Transactions on Medical Imaging},
+     year={2010},
+     volume={29},
+     pages={1039-1049}
+}
+
+
+
+
+% an article stating problems of csd algo in principle and many-tracts per voxel problem as well
+% https://www.frontiersin.org/articles/10.3389/fninf.2014.00028/full
+@ARTICLE{csdProblems,
+  
+AUTHOR={Roine, Timo and Jeurissen, Ben and Perrone, Daniele and Aelterman, Jan and Leemans, Alexander and Philips, Wilfried and Sijbers, Jan},   
+	 
+TITLE={Isotropic non-white matter partial volume effects in constrained spherical deconvolution},      
+	
+JOURNAL={Frontiers in Neuroinformatics},      
+	
+VOLUME={8},      
+
+PAGES={28},     
+	
+YEAR={2014},      
+	  
+URL={https://www.frontiersin.org/article/10.3389/fninf.2014.00028},       
+	
+DOI={10.3389/fninf.2014.00028},      
+	
+ISSN={1662-5196},
+}
+%===========================================================================
+%                          Overview papers
+%===========================================================================
+
+%-- AMAZING overview paper. Many things are taken from here,
+% many more things could be found in references
+% https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3594764/
+@article{dtiGuide,
+    author = {Soares, José M et al.},
+    year = {2013},
+    title = {A hitchhiker's guide to diffusion tensor imaging.},
+    journal = {Frontiers in neuroscience},
+    volume = {7 31.},
+    doi = {10.3389/fnins.2013.00031}
+}
+
+%===========================================================================
+%                        MRtrix and other tools
+%===========================================================================
+
+% paper on fsl (first)
+@article{fsl1,
+    author = {Jenkinson M, Beckmann CF, Behrens TE, Woolrich MW, Smith SM.},
+    year = {2012},
+    pages = {782‐790},
+    title = {FSL},
+    journal = {Neuroimage},
+    volume = {62(2)},
+    doi = {10.1016/j.neuroimage.2011.09.015}
+}
+
+% paper on fsl (second)
+@article{fsl2,
+    author = {Smith, Stephen and Jenkinson, Mark and Woolrich, Mark and Beckmann, Christian and Behrens, Timothy and Johansen-Berg, Heidi and Bannister, Peter and Luca, Medana and Drobnjak, Ivana and Flitney, David and Niazy, Rami and Saunders, James and Vickers, John and Zhang, Yongyue and De Stefano, Nicola and Brady, Michael and Matthews, Paul},
+    year = {2004},
+    month = {02},
+    pages = {S208-19},
+    title = {Advances in functional and structural MR image analysis and implementation as FSL},
+    volume = {23 Suppl 1},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2004.07.051}
+}
+
+% official mrtrix documentation
+@misc{mrtrixDocu,
+  title = {MRtrix documentation},
+  howpublished = {\url{https://readthedocs.org/projects/mrtrix/downloads/pdf/latest/}},
+  note = {Accessed: 24.05.2020}
+}
+
+% paper on mrtrix
+@article{mrtrixGeneral2019,
+    author = {Tournier JD, Smith R, Raffelt D, et al.},
+    year = {2019},
+    pages = {},
+    title = {MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation.},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2019.116137}
+}
+
+% paper on mrtrix -> dwi2fod (general)
+@article{dwi2fod,
+    author = {Tournier, Jacques-Donald and Calamante, Fernando and Gadian, David and Connelly, Alan},
+    year = {2004},
+    month = {12},
+    pages = {1176-85},
+    title = {Direct estimation of the fiber orientation density function from diffusion-weighted MRI data using spherical deconvolution},
+    volume = {23},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2004.07.037}
+}
+
+% paper on mrtrix -> dwi2fod (csd algorithm)
+%  https://www.sciencedirect.com/science/article/pii/S1053811907001243
+@article{dwi2fod2-csd,
+    author = {Tournier JD, Calamante F, Connelly A},
+    year = {2007},
+    pages = {1459-1472},
+    title = {Robust determination of the fibre orientation distribution in diffusion MRI: Non-negativity constrained super-resolved spherical deconvolution.},
+    journal = {NeuroImage},
+    volume = {35},
+    doi = {10.1016/j.neuroimage.2007.02.016}
+}
+
+% paper on mrtrix -> dwi2fod (msmt_csd algorithm)
+% https://www.sciencedirect.com/science/article/pii/S1053811914006442
+@article{dwi2fod2-msmt-csd,
+title = "Multi-tissue constrained spherical deconvolution for improved analysis of multi-shell diffusion MRI data",
+journal = "NeuroImage",
+volume = "103",
+pages = "411 - 426",
+year = "2014",
+issn = "1053-8119",
+doi = "https://doi.org/10.1016/j.neuroimage.2014.07.061",
+url = "http://www.sciencedirect.com/science/article/pii/S1053811914006442",
+author = "Ben Jeurissen and Jacques-Donald Tournier and Thijs Dhollander and Alan Connelly and Jan Sijbers"
+}
+
+% paper on mrtrix -> dwi2response
+@article{dwi2response,
+    author = {Tournier JD, Calamante F, Connelly A.},
+    year = {2013},
+    pages = {1775‐1786},
+    title = {Determination of the appropriate b value and number of gradient directions for high-angular-resolution diffusion-weighted imaging.},
+    journal = {NMR Biomed.},
+    volume = {26(12)},
+    doi = {10.1002/nbm.3017}
+}
+
+% paper on mrtrix -> tckgen (iFOD2 algorithm)
+@article{tckgen,
+    author = {Tournier, Jacques-Donald and Calamante, F. and Connelly, Alan},
+    year = {2010},
+    month = {01},
+    pages = {},
+    title = {Improved probabilistic streamlines tractography by 2nd order integration over fibre orientation distributions},
+    volume = {18},
+    journal = {Proc. Intl. Soc. Mag. Reson. Med. (ISMRM)}
+}
+
+% paper on mrtrix mrregister
+@article{mrregister,
+    author = {Raffelt, David and Tournier, Jacques-Donald and Crozier, Stuart and Connelly, Alan and Salvado, Olivier},
+    year = {2012},
+    month = {03},
+    pages = {844-55},
+    title = {Reorientation of fiber orientation distributions using apodized point spread functions},
+    volume = {67},
+    journal = {Magnetic resonance in medicine},
+    doi = {10.1002/mrm.23058}
+}
+
+% paper on mrtrix mrregister 2
+@article{mrregister2,
+    author = {Raffelt D, Tournier JD, Fripp J, Crozier S, Connelly A, Salvado O.},
+    year = {2011},
+    pages = {1171‐1180},
+    title = {Symmetric diffeomorphic registration of fibre orientation distributions.},
+    volume = {56(3)},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2011.02.014}
+}
+
+% paper on mrtrix fod2fixel
+@article{fod2fixel,
+    author = {Smith, Robert and Tournier, Jacques-Donald and Calamante, Fernando and Connelly, Alan},
+    year = {2012},
+    month = {12},
+    pages = {},
+    title = {SIFT: Spherical-deconvolution Informed Filtering of Tractograms.},
+    volume = {67},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2012.11.049}
+}
+
+
+
+
+%----------
+
+
+
+% "helper" concerning dwi and aging
+@article{moseleyAging,
+    author = {Moseley M},
+    year = {2002},
+    pages = {553-560},
+    title = {Diffusion tensor imaging and aging - a review},
+    volume = {15(7-8)},
+    journal = {NMR Biomed},
+    doi = {doi:10.1002/nbm.785}
+}
+
+@article{extension1,
+    author = {Correia, Stephen et al},
+    year = {2008},
+    pages = {568-81},
+    title = {Quantitative tractography metrics of white matter integrity in diffusion-tensor MRI},
+    volume = {42,2},
+    journal = {NeuroImage},
+    doi = {10.1016/j.neuroimage.2008.05.022}
+}
+
+@article{extension2,
+title = "White matter tract integrity metrics reflect the vulnerability of late-myelinating tracts in Alzheimer's disease",
+journal = "NeuroImage: Clinical",
+volume = "4",
+pages = "64 - 71",
+year = "2014",
+issn = "2213-1582",
+doi = "https://doi.org/10.1016/j.nicl.2013.11.001",
+url = "http://www.sciencedirect.com/science/article/pii/S2213158213001496",
+author = "Andreana Benitez and Els Fieremans and Jens H. Jensen and Maria F. Falangola and Ali Tabesh and Steven H. Ferris and Joseph A. Helpern",
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

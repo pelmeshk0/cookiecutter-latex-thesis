@@ -1,0 +1,13 @@
+\documentclass[thesis.tex]{subfiles}
+
+\begin{document}
+\chapter{Conclusion}
+This master thesis describes the process of extending CoBundleMAP image processing pipeline with the metrics that are specific for white matter tracts analysis. The work starts with background information about the Diffusion Weighted Imaging in general, as well as principles and techniques that are essential for performing dMRI processing. Next, an overview of the CoBundleMAP itself is given, including the important steps and ideas that are present within this framework. For the purpose of the feature vector extension, a robust and established method was researched, namely Fixel-based analysis. It allows to estimate specific characteristics of the brain tissue, that are otherwise impossible to produce with other techniques, including the ones that are used within CoBundleMAP. A full description of the proposed architecture was given, as well as implemented in the form of an independent pipeline, including scripts for the integration. Output of the constructed method was therefore used to extend the feature vector and perform analysis on a population of subjects with hemisphere-specific pathologies. Results were visualized and subsequently researched in order to provide evaluation of the implemented solution. Plots that were constructed specifically for the analysis of the examined population, exhibit a strong correspondence with the expected results, as well as confirm correctness and value of the achieved outcome. The extended feature vector is well-aligned with existing implementation, while the produced metrics can be used for derivation of information, which is highly beneficial for the research of white matter tissue. Important achievement of this work personally for me consists in gaining huge amount of new knowledge and skills that otherwise would be out of my reach.
+\section{Future work}
+Further work on this topic may include optimisation of the combined pipeline, since first steps are in principle independent and time-consuming, these may be executed in a parallel manner, considerably improving computation time. The feature vector which is produced by CoBundleMAP can be further extended with additional metrics, such as streamline length metrics \cite{extension1} or white matter integrity metrics \cite{extension2}.
+
+
+%\label{ch:conclusion} 
+
+\end{document}
+
